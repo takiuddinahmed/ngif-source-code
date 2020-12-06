@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEXT GEN IDENTITY FINDER</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/9480d4a542.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/css/analyzeFromPhoto.css">
+    <link rel="stylesheet" href="assets/fonts/fonts.css">
+</head>
+
+<body>
+
+    <nav class="nav">
+        <p> NEXT GEN IDENTITY FINDER</p>
+        <div class="nav-right">
+            <!-- <i class="far fa-user mr-2"></i> -->
+            <img src="assets/img/username-icon.png" style="border-radius: 50%;" id="user-image" class="nav-icon">
+            <span id="username">admin </span>
+            <!-- <i class="fas fa-bars ml-2"></i> -->
+            <img src="assets/img/menu.png" class="nav-icon">
+
+            <div id="menu-show" class="menu-show-action">
+                <a href="view-profile.html">View Profile</a>
+                <a href="edit-profile.html">Edit Profile</a>
+                <a href="dashboard.html">Dashboard</a>
+                <a href="index.html">Sign Out</a>
+
+            </div>
+
+        </div>
+    </nav>
+
+    <nav class="title-section">
+        <!-- <i class="fas fa-arrow-left" id="back-btn"></i>
+         -->
+        <img src='assets/img/back.png' id="back-btn">
+        <div class="title-right">
+            <img src="assets/img/analize2.png" alt="analyze">
+            <h2 class="ml-2 mt-3" id="title-text">IDENTITY ANALYSIS</h2>
+        </div>
+
+    </nav>
+
+    <div class=" main-section">
+
+        <div class="box-section box-left">
+            <div class="box">
+                <img src="assets/img/profile-icon.png" alt="logo" id="test-pic">
+            </div>
+            <button class="btn btn-light" id="test-btn">Add Photo</button>
+        </div>
+
+        <div class="box-section box-right">
+            <div class="box">
+                <img src="assets/img/profile-icon.png" alt="logo" id="source-pic">
+            </div>
+            <button class="btn btn-light" id="source-btn">Add Photo</button>
+        </div>
+
+        <button id="analyze" class="btn btn-danger">Analyze</button>
+
+    </div>
+
+
+    <div class="lds-css ng-scope loading-section">
+        <h1 class="text-danget text-center">Checking.....</h1>
+        <div style="width:100%;height:100%" class="lds-magnify">
+            <div>
+                <div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="modal fade" id="alertModal" tabindex="-1" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <h4 class="modal-title text-warning" id="alert-modal-head"> Alert</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <div class="modal-body">
+                    <p class="text-warning" id="alert-modal-text">Hello</p>
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-warning" data-dismiss="modal">OK</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/analyzeFromPhoto.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>

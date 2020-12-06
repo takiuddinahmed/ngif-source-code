@@ -1,0 +1,52 @@
+html {
+    height: 100%;
+}
+
+
+body {
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-color: #000066;
+    /* background-image: radial-gradient(#09, yellow, green); */
+    background-image:  url("../img/backgroundLoad.jpg");
+    background-size: 100% 100%;
+    color: whitesmoke;
+    overflow: hidden;
+}
+
+.license-section{
+    display: none;
+}
+
+tr{
+    margin-top: 30px;
+}
+
+.spinner-border{
+    color:#2d8dfd;
+    font-size: .8em;
+}
+
+td{
+    margin-left: 10px;
+    font-size: 1.4em;
+    padding: 5px;
+}
+
+
+.select{
+    width: 20px;
+    height: 20px;
+}
+
+.logo{
+    width: 400px;
+    margin: 0;
+}
+
+#launch{
+    display: none;
+}
+

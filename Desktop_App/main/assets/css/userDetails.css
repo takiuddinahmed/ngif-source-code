@@ -1,0 +1,88 @@
+.user-details-section{
+    margin: 70px auto;
+    display: block;
+}
+
+.pro-pic-box{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: block;
+    margin: 100px auto;
+    background: url("D:\\Work\\Prof Project\\NGIF\\Final v1\\App\\release-builds\\ngif-win32-ia32\\resources\\pro-pic.jpg") no-repeat;
+    background-size: 200px 200px;
+    /* position: absolute;
+    left: 20%; */
+    cursor: pointer;
+    border: 2px solid whitesmoke;
+    position: relative;
+    
+}
+
+#pro-pic{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: block;
+    margin: 100px auto;
+}
+#edit-pro-pic{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: block;
+}
+
+
+
+#change-image{
+    /* margin: 80px 60px; */
+    visibility: hidden;
+    position: absolute;
+    top: 80px ;
+    left: 60px;
+}
+
+
+.pro-pic-box:hover{
+    /* background: grey ; */
+    opacity: .6;
+}
+.pro-pic-box:hover #change-image{
+   visibility: visible;
+   opacity: 1;
+}
+
+
+.item{
+    margin-top: 12px;
+}
+
+.title{
+    font-size: 0.8em;
+    /* margin-top: 20px; */
+}
+
+.details{
+    font-size: 1.6em;
+}
+
+.edit-box{
+    display: block;
+    background: none;
+    
+    /* background-image:  url("../img/backround-images.jpg"); */
+    color: whitesmoke;
+    font-size: 1.6em;
+    border: none;
+    border-bottom: 1px solid whitesmoke;
+}
+.edit-box:focus{
+    outline: none;
+}
+
+@media screen and (max-height: 700px) {
+  .guide-section{
+      height: 500px;
+  }
+}

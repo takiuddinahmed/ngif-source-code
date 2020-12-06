@@ -1,0 +1,15 @@
+#image-check-btn{
+    display: block;
+    margin: 20px auto;
+}
+
+.img-show{
+    display: block;
+    margin: 0 auto;
+    width: 40%;
+    height: auto;
+}
+
+#result{
+    height: 250px;
+}

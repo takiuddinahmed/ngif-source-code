@@ -1,0 +1,75 @@
+html {
+    height: 100%;
+}
+
+
+body {
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-color: #000066;
+    /* background-image: radial-gradient(#09, yellow, green); */
+    background-image:  url("../img/login-background.jpg");
+    background-size: 100% 100%;
+    color: whitesmoke;
+    overflow: hidden;
+}
+
+.title{
+    
+    position: absolute;
+    top: 10px;
+    background-image: url('../img/NGIF-logo.png');
+    background-size: 200px auto;
+    background-repeat: no-repeat;
+    background-position: top center;
+    /* border: 1px solid #1a305a;
+     */
+    border: none;
+    width: 520px;
+    height: 200px;
+    margin: 0px;
+    margin-left: 100px;
+}
+
+.title-text{
+    text-align: center;
+    margin-top: 140px;
+    font-family: Neuropolitical-Regular;
+}
+
+form{
+    margin-left: 150px;
+    width: 400px;
+    margin-top: 250px;
+}
+
+
+input[type=text],
+input[type=password]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  background-color: transparent;
+  border-bottom: 2px solid whitesmoke;
+  color: whitesmoke;
+}
+input:focus{
+    outline: none;
+}
+
+button{
+    margin: 50px 160px;
+    /* width: 120px; */
+    /* background-color: #1a3051; */
+    border-radius: 15px;
+    /* font-family: nexa-bold; */
+}
+/* 
+input[type=text]:focus{
+    border:none;
+    border-bottom: 2px solid green;
+} */
